@@ -6,4 +6,4 @@ Description: Page about my hobby
 Min hobby
 ==================
 
-Jag har sedan innan jag kunde gå sprungit orientering. Det är en härlig sport ute i skogen med utmaningar för både kropp och knopp.
+Genom åren har jag haft olika intressen, däribland fotografering. Jag tycker om att fotografera både naturen och stadsmiljöer.
