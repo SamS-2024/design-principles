@@ -6,10 +6,10 @@ Description: This is our index page.
 Om mig
 ==========================
 
-Mitt namn är Sam och jag studerar webtec på BTH. Jag har tidigare arbetat som kemiingenjör, men på senare tid har jag blivit allt mer intresserad av programmering och webbutveckling.<br><br>
+Mitt namn är Sam och jag studerar webbutveckling på BTH. Tidigare har jag arbetat som kemiingenjör, men på senare tid har mitt intresse för programmering och webbutveckling vuxit allt mer.<br><br>
 
-Jag tycker om att fotografera och tillbringar gärna tid utomhus, både i skogar och vid sjöar, men jag uppskattar även promenader i stadsmiljöer. Förutom mitt fotointresse njuter jag också av att titta på dokumentärer, vetenskapsprogram och att umgås med familj och vänner.<br><br>
+Jag gillar att fotografera och spendera tid i naturen, men jag uppskattar också promenader i stadsmiljöer. Utöver mitt fotointresse tycker jag om att titta på dokumentärer, vetenskapsprogram och att umgås med familj och vänner.<br><br>
 
-Jag tycker om att kombinera analytiskt tänkande och estetik och detta hittade jag i programmering. Jag ser fram emot att lära mig mer om webbsidor och programmering samtidigt som att njuta av min studietid och de nya erfarenheterna.
+Jag trivs med att kombinera analytiskt tänkande och estetik, och det är något jag har funnit i programmering. Jag ser fram emot att lära mig mer om webbutveckling och programmering samtidigt som jag njuter av min studietid och de nya erfarenheterna.
 
 ![me](%assets_url%/img/me.jpg){.me}
