@@ -6533,9 +6533,13 @@ html, body {
 body {
   display: flex;
   flex-direction: column;
+  width: 800px;
+  margin: 0 auto;
+  line-height: 1.5rem;
+  overflow-x: hidden;
 }
 
-.main {
+.main { /* flex-grow = 1, flex-shrink = 0, flex-basis = auto */
   flex: 1 0 auto;
 }
 
@@ -6554,17 +6558,6 @@ body {
   padding: 3em 3em 3em 0;
 }
 
-@media (max-width: 767px) {
-  .title, .logo {
-    padding: 1em 1em 1em 0;
-  }
-  .title {
-    min-width: 50%;
-  }
-  .logo {
-    max-width: 30%;
-  }
-}
 .title * {
   color: #111;
 }
@@ -6574,27 +6567,7 @@ body {
 }
 
 /* Footer */
-.footer {
-  display: flex;
-  justify-content: space-between;
-  border-top: 1px solid #222;
-}
-
-.footer a {
-  color: #222;
-}
-
-.footer .social {
-  font-size: 2rem;
-}
-
 /* Typografy */
-body {
-  font-family: sans-serif;
-  line-height: 1.5rem;
-  color: #444;
-}
-
 p, td, th, li, dd {
   text-align: justify;
   overflow-wrap: break-word;
@@ -6631,13 +6604,6 @@ img {
   margin-bottom: 20px;
 }
 
-.me { /* bilden */
-  margin-top: 25px;
-  margin-left: 5px;
-  border: 0.5px solid rgb(165, 165, 165);
-  border-radius: 7px;
-}
-
 /* Test-kod föreläsning */
 .element-1 {
   box-sizing: content-box;
@@ -6670,6 +6636,33 @@ img {
   text-decoration: none;
 }
 
+.me { /* bilden */
+  margin-top: 25px;
+  margin-left: 5px;
+  border: 0.5px solid rgb(165, 165, 165);
+  border-radius: 7px;
+}
+
+@media (max-width: 767px) {
+  html, body {
+    height: 100%;
+  }
+  body {
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    overflow-x: hidden;
+  }
+  .title, .logo {
+    padding: 1em 1em 1em 0;
+  }
+  .title {
+    min-width: 50%;
+  }
+  .logo {
+    max-width: 30%;
+  }
+}
 * {
   font-family: "Roboto", sans-serif;
 }
@@ -6680,8 +6673,6 @@ h1, h2, h3, h4, h5, h6 {
 
 body {
   background-color: rgb(199, 231, 248);
-  width: 800px;
-  margin: 0 auto;
 }
 
 * {

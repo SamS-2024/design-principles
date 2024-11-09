@@ -1,0 +1,20 @@
+@media (max-width: 767px) {
+  html, body {
+    height: 100%;  
+  }
+  body {
+    width:96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    overflow-x: hidden;
+  }
+  .title, .logo {
+      padding: 1em 1em 1em 0;
+  }
+  .title {
+      min-width: 50%;
+  }
+  .logo {
+      max-width: 30%;
+  }
+}

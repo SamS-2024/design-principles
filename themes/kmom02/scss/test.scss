@@ -1,0 +1,38 @@
+/* Test-kod föreläsning */
+
+.element-1 {
+  box-sizing: content-box;
+  width: 600px;
+  height: 100px;
+  background-color: black;
+
+}
+
+.element-2 {
+  box-sizing: content-box;
+  width: 100%px;
+  height: 100px;
+  background-color: blue;
+
+}
+
+.element-3 {
+  box-sizing: border-box;
+  width: 50vw;
+  height: 100px;
+  background-color: rgb(228, 33, 33);
+
+}
+
+.element-4 {
+  
+  width: 100%;
+  height: 100px;
+  background-color: rgb(33, 228, 56);
+
+}
+
+.social a {
+
+  text-decoration: none;
+}
