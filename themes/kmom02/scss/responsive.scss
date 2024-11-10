@@ -1,5 +1,7 @@
 @media (max-width: 767px) {
-  html, body {
+  html
+  ,
+  body {
     height: 100%;
   }
 
@@ -24,17 +26,21 @@
     margin-left: 3% !important;
     margin-right: 3% !important;
     // min-height: 100vh; // Gör att footern inte hoppar upp vid kort innehåll
-   }
+  }
   
-  .title, .logo {
-      padding: 1em 1em 1em 0;
-  }
-  .title {
-      min-width: 50%;
-  }
+  .title
+  ,
   .logo {
-      max-width: 30%;
-      height: auto; /* Bevarar proportionerna */
+    padding: 1em 1em 1em 0;
+  }
+
+  .title {
+    min-width: 50%;
+  }
+
+  .logo {
+    max-width: 30%;
+    height: auto; /* Bevarar proportionerna */
   }
 
   .social {
