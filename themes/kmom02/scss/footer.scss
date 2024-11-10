@@ -6,11 +6,13 @@
   align-items: center;
   margin-bottom: 20px;
   margin-top: 100px;
-  border-top: 1px dotted #1f4277;
+  // border-top: 1px dotted #0e80f2;
+  background: $background-color-gradient-alternative;
+
+  .social {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 2em;
+  }
 }
 
-.social {
-  margin-top: 15px;
-  margin-bottom: 20px;
-  font-size: 2em;
-}

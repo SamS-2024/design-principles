@@ -3,6 +3,7 @@
   border: 0 none;
   margin: 0;
   padding: 0;
+  color: $font-color;
 }
 
 ol, ul {
@@ -24,14 +25,15 @@ body {
   overflow-x: hidden;
   overflow-y: scroll; /* Always display scrollbar, avoid hopping pages */
   margin: 0;
-}
+  background-color: $background-color;
 
-.main {
-  flex: 1 0 auto; /* flex-grow = 1, flex-shrink = 0, flex-basis = auto */
-  max-width: 800px;
-  width: 100%;
-  margin: 0 auto;
-  min-height: 20em; // Gör att footern inte hoppar upp vid kort innehåll
+  .main {
+    flex: 1 0 auto; /* flex-grow = 1, flex-shrink = 0, flex-basis = auto */
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    min-height: 40em; /* Gör att footern inte hoppar upp vid kort innehåll */
+  }
 }
 
 .header, .footer {
@@ -56,7 +58,6 @@ body {
   height: auto; /* Bevarar proportionerna */
   margin-left: 1em;
 }
-
 
 .title * {
   color: #111;

@@ -1,5 +1,6 @@
 .header {
   display: flex;
   align-items: center;
-  background: linear-gradient(to bottom, rgb(199, 220, 249), rgb(160, 200, 220));
+  background: $background-color-gradient;
+  margin-bottom: 50px;
 }
