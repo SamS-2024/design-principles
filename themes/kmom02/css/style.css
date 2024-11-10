@@ -6529,13 +6529,12 @@ html, body {
   height: 100%;
 }
 
-/* Placement */
 body {
   display: flex;
   flex-direction: column;
   width: 800px;
   margin: 0 auto;
-  line-height: 1.5rem;
+  line-height: 1.4;
   overflow-x: hidden;
 }
 
@@ -6566,22 +6565,19 @@ body {
   font-style: italic;
 }
 
-/* Footer */
-/* Typografy */
-p, td, th, li, dd {
-  text-align: justify;
-  overflow-wrap: break-word;
-  word-wrap: break-word;
+p {
+  font-size: 1.1em;
 }
 
 h1 {
-  margin-bottom: 0.6em;
-  margin-top: 0.8em;
+  font-size: 2em;
+  margin-bottom: 0.8rem;
+  margin-top: 0.8rem;
   font-weight: bold;
 }
 
 h2, h3, h4, h5, h6 {
-  margin-bottom: 0.6em;
+  margin-bottom: 0.8rem;
   font-weight: bold;
 }
 
@@ -6589,7 +6585,6 @@ img {
   max-width: 100%;
 }
 
-/* Testar härifrån */
 .footer {
   display: flex;
   flex-direction: column;
@@ -6602,6 +6597,7 @@ img {
 .social {
   margin-top: 15px;
   margin-bottom: 20px;
+  font-size: 2em;
 }
 
 /* Test-kod föreläsning */
@@ -6647,11 +6643,18 @@ img {
   html, body {
     height: 100%;
   }
+  h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
   body {
-    width: 96%;
-    margin-left: 2%;
-    margin-right: 2%;
+    width: 94%;
+    margin-left: 3%;
+    margin-right: 3%;
     overflow-x: hidden;
+    overflow-y: auto;
+    line-height: 1.5;
   }
   .title, .logo {
     padding: 1em 1em 1em 0;
@@ -6661,6 +6664,9 @@ img {
   }
   .logo {
     max-width: 30%;
+  }
+  .social {
+    font-size: 1.5em;
   }
 }
 * {

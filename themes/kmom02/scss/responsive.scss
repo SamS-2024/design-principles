@@ -2,12 +2,21 @@
   html, body {
     height: 100%;  
   }
-  body {
-    width:96%;
-    margin-left: 2%;
-    margin-right: 2%;
-    overflow-x: hidden;
+  h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
   }
+  
+  body {
+    width:94%;
+    margin-left: 3%;
+    margin-right: 3%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    line-height: 1.5;
+  }
+  
   .title, .logo {
       padding: 1em 1em 1em 0;
   }
@@ -16,5 +25,9 @@
   }
   .logo {
       max-width: 30%;
+  }
+
+  .social {
+    font-size: 1.5em;
   }
 }
