@@ -16,3 +16,8 @@ desktop.ini
 
 # NPM
 themes/node_modules/
+
+# Ignorerar den kompilerade css filen som skapas automatiskt efter ändringen
+themes/kmom02/css/style.css
+
+
