@@ -20,14 +20,18 @@ html, body {
 body {
   display: flex;
   flex-direction: column;
-  width: 800px;
-  margin: 0 auto;
   line-height: 1.4;
   overflow-x: hidden;
+  overflow-y: scroll; /* Always display scrollbar, avoid hopping pages */
+  margin: 0;
 }
 
-.main { /* flex-grow = 1, flex-shrink = 0, flex-basis = auto */
-  flex: 1 0 auto;
+.main {
+  flex: 1 0 auto; /* flex-grow = 1, flex-shrink = 0, flex-basis = auto */
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  min-height: 20em; // Gör att footern inte hoppar upp vid kort innehåll
 }
 
 .header, .footer {
@@ -44,8 +48,15 @@ body {
 /* Title */
 
 .title, .logo {
-  padding: 3em 3em 3em 0;
+  padding: 3em 3em 3em 1em;
 }
+
+.logo {
+  max-width: 50%;
+  height: auto; /* Bevarar proportionerna */
+  margin-left: 1em;
+}
+
 
 .title * {
   color: #111;

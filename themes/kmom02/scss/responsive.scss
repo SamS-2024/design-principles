@@ -7,15 +7,19 @@
     font-weight: bold;
     margin-bottom: 0.5rem;
   }
-  
-  body {
-    width:94%;
-    margin-left: 3%;
-    margin-right: 3%;
+
+  .body {
     overflow-x: hidden;
     overflow-y: auto;
     line-height: 1.5;
   }
+  
+  .main {
+    width:94%;
+    margin-left: 3%;
+    margin-right: 3%;
+    min-height: 100vh; // Gör att footern inte hoppar upp vid kort innehåll
+   }
   
   .title, .logo {
       padding: 1em 1em 1em 0;
@@ -25,6 +29,7 @@
   }
   .logo {
       max-width: 30%;
+      height: auto; /* Bevarar proportionerna */
   }
 
   .social {
