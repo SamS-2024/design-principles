@@ -3,16 +3,20 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: end;
   margin-bottom: 20px;
   margin-top: 100px;
-  // border-top: 1px dotted #0e80f2;
   background: $background-color-gradient-alternative;
 
   .social {
     margin-top: 15px;
     margin-bottom: 20px;
     font-size: 2em;
+    padding-right: 1.5em;
+  }
+  
+  a {
+    padding: 0.5em;
+
   }
 }
-
