@@ -7,8 +7,8 @@ Social:
       url: https://github.com/SamS-2024/example-repo
       icon: fab fa-github
 
-    - title: Intern länk till sidan 'Hobby'.
-      url: /portfolio/hobby
+    - title: En länk till sidan 'Hobby'.
+      url: hobby
       icon: fa fa-camera
 ---
   
