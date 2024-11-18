@@ -1,0 +1,66 @@
+/* technology layout */
+.landingpage {
+  display: grid;
+  gap: 1em;
+  grid-template-columns: repeat(3, 1fr); /* Tre kolumner */
+}
+
+.landingpage h1 {
+  grid-column: span 3;
+  // width: 100%; /* Täcker hela cellens bredd */
+  justify-self: center;
+}
+
+.box {
+  border: 1px solid rgb(37, 136, 193);
+  padding: 4em;
+  padding-top: 0.5em;
+  padding-left: 0.5em;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+}
+
+.medium {
+  grid-column: span 2;
+}
+
+.wide {
+  grid-column: span 3;
+}
+
+/* För de olika tech-sidorna, eller sidan som visar de olika teknikerna */
+.main-tech {
+  display: grid;
+  gap: 5rem;
+  grid-template-columns: 1fr 2fr; /* Två kolumner */
+  max-width: 950px;
+  min-height: 60em; /* Håller footern nere vid kort innehåll på sidan i IPads */
+}
+
+.side-bar {
+  margin-top: 1.5rem;
+  margin-left: 2rem;
+  padding: 1em;
+  color: $link-color;
+}
+
+.tech-pages {
+  margin-left: 7rem;
+}
+
+.tech-links {
+  padding: 1em;
+  border: 1px solid rgb(184, 226, 250);
+  text-align: center;
+  box-shadow: 0 4px 12px rgb(33, 33, 33, 0.1);
+  background-color: #f9f9f9;
+  border-radius: 8px;
+
+  a {
+    color: $link-color;
+  }
+}
+
+.box .read-more { /* Länkarna i technology/index.md */
+  color: $link-color;
+}
+

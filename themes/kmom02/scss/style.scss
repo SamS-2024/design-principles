@@ -1,3 +1,6 @@
+// Google fonts
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
 @import '../../shared/fontawesome/scss/fontawesome';
 $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/brands';
@@ -13,29 +16,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'footer';
 @import 'header';
 @import 'test';
-@import 'home';
+@import 'images';
 @import 'basic';
+@import 'technology';
 @import 'responsive';
-
-// Google fonts
-
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
-
-// För texten
-* {
-  font-family: 'Roboto', sans-serif;
-}
-// För alla rubriker
-h1
-,
-h2
-,
-h3
-,
-h4
-,
-h5
-,
-h6 {
-  font-family: 'Open Sans', sans-serif;
-}

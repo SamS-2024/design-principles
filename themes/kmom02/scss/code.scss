@@ -22,6 +22,8 @@ pre code {
   padding: 1.1111em 0;
   border: 0 none;
   background: transparent;
-  overflow-x: auto;
+  // overflow-x: auto;
+  overflow-x: hidden;
+  white-space: pre-wrap; /* Gör så att lång kod bryts inom viewporten */
   line-height: 1.4;
 }

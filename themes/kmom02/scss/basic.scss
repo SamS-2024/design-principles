@@ -31,10 +31,9 @@ body {
 
   .main {
     flex: 1 0 auto; /* flex-grow = 1, flex-shrink = 0, flex-basis = auto */
-    max-width: 800px;
+    max-width: 50rem; /* Motsvarar 800px */
     width: 100%;
     margin: 0 auto;
-    min-height: 40em; /* Gör att footern inte hoppar upp vid kort innehåll */
   }
 
   p {
@@ -49,35 +48,22 @@ body {
   flex: 0 0 auto;
 }
 
-/* Header */
-
-.header,
-.site-header {
-  display: flex;
-  justify-content: space-between;
-}
-
 /* Title */
-
 .title
 ,
 .logo {
   padding: 3em 3em 3em 1em;
 }
 
-.logo {
-  max-width: 50%;
-  height: auto; /* Bevarar proportionerna */
-  margin-left: 1em;
-}
-
 .title * {
-  color: #111;
+  color: $title-color;
 }
 
 .title p {
   font-style: italic;
 }
+
+/* Stil för rubriker */
 
 h1 {
   font-size: 2em;
@@ -98,6 +84,22 @@ h6 {
   font-weight: bold;
 }
 
-img {
-  max-width: 100%;
+// Teckensnitt importerad från 'google fonts'.
+// För texten
+* {
+  font-family: 'Roboto', sans-serif;
+}
+// För alla rubriker
+h1
+,
+h2
+,
+h3
+,
+h4
+,
+h5
+,
+h6 {
+  font-family: 'Open Sans', sans-serif;
 }

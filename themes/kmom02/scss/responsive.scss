@@ -1,6 +1,12 @@
-@media (max-width: 767px) {
+
+// @media (max-width: 767px) {
+@media (max-width: 1024px) {
   .header {
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
+    
+    .site-header {
+      font-size: 1em;
+    }
   }
 
   .body {
@@ -12,7 +18,6 @@
     width: 94% !important;
     margin-left: 3% !important;
     margin-right: 3% !important;
-    // min-height: 100vh; // Gör att footern inte hoppar upp vid kort innehåll
   }
   
   .title
@@ -22,7 +27,7 @@
   }
 
   .title {
-    min-width: 50%;
+    min-width: 40%;
   }
 
   .logo {
@@ -30,3 +35,42 @@
     height: auto; /* Bevarar proportionerna */
   }
 }
+
+@media (max-width: 820px) {
+  .landingpage {
+    grid-template-columns: 1fr; /* En kolumn */
+    max-width: 90%;
+
+    h1 {
+      justify-self: flex-start;
+    }
+  }
+
+  .box,
+  .medium,
+  .wide {
+    grid-column: 1 / -1; /* Gör att varje box sträcker sig över hela raden oavsett hur många kolumner det finns */
+  }
+
+  .main-tech {
+    grid-gap: 5px;
+    grid-template-columns: 1fr; /* Görs om till en kolumn */
+
+    .tech-pages {
+      overflow-x: hidden; /* Tar bort horisontell scroll främst på 'HTML' artikeln. */
+      white-space: pre-wrap; /* Anpassar långa kodsnuttar till skärmen */
+      margin-left: 3%;
+      margin-right: 3%;
+    }
+
+    .side-bar {
+      display: none; /* Döljer sidebaren på små skärmar */
+    }
+  }
+}
+
+
+
+
+
+

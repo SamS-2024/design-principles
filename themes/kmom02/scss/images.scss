@@ -1,3 +1,7 @@
+img {
+  max-width: 100%;
+}
+
 .me { /* bilden */
   margin-top: 25px;
   margin-left: 5px;
@@ -5,7 +9,7 @@
   border-radius: 7px;
 }
 
-.bild {
+.bild { /* Bilden på hobby-sidan */
   max-width: 90%;
   margin-top: 2.5em;
   border-radius: 8px;

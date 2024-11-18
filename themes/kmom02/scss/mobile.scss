@@ -23,9 +23,16 @@
   display: none;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) { /* Inkludrar IPad mini */
   .header {
     flex-direction: column;
+  }
+
+  .site-header { /* la till */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
   }
 
   .nav ul {
