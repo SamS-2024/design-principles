@@ -21,7 +21,7 @@ Analysen utfördes med hjälp av verktyget color.adobe.com. Först togs en skär
 
 <h2 class="website-title">IKEA</h2>
 
-![webbplats1](%assets_url%/img/webbplats1.png){.webbplats1}
+![IKEA](%assets_url%/img/webbplats1.png){.webbplats-1}
 
 Resultatet av färganalysen av IKEA:s webbplats visade följande färger:
 
@@ -51,7 +51,7 @@ Färgschema: IKEA (ikea.com) använder ett komplementärt färgschema där gult 
 
 <h2 class="website-title">Dagens industri</h2>
 
-![webbplats2](%assets_url%/img/webbplats2.png){.webbplats2}
+![Dagens industri](%assets_url%/img/webbplats2.png){.webbplats-2}
 
 Resultatet av färganalysen av Dagens Industri visade följande färger:
 
@@ -82,7 +82,7 @@ Färgschema: Dagens Industri (di.se) använder ett komplementärt färgschema d�
 
 <h2 class="website-title">Västtrafik</h2>
 
-![webbplats3](%assets_url%/img/webbplats3.png){.webbplats3}
+![Västtrafik](%assets_url%/img/webbplats3.png){.webbplats-3}
 
 Resultatet av färganalysen av Västtrafik visade följande färger:
 
