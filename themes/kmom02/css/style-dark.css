@@ -6843,6 +6843,12 @@ h6 {
   background-color: #F2F2F2;
 }
 
+/* Bilderna */
+.webbplats-1, .webbplats-2, .webbplats-3 {
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
 .typografi-table {
   border-collapse: collapse;
   margin-bottom: 2.8rem;
