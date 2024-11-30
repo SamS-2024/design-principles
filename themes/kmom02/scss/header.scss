@@ -1,14 +1,15 @@
 .header {
   display: flex;
   align-items: center;
-  background: $background-color-gradient;
+  background: $background-color-header;
   justify-content: space-between;
   padding-right: 1rem;
-  margin-bottom: 3.125rem;
+  // margin-bottom: 3.125rem;
 
   .nav a {
     font-size: 1.5rem;
     text-decoration: none;
+    color: $title-color;
   }
 }
 
@@ -19,7 +20,7 @@
   font-size: 1.3em;
 
   .logo {
-    max-width: 40%;
+    max-width: 32%;
     height: auto; /* Bevarar proportionerna */
     margin-left: 1em;
   }

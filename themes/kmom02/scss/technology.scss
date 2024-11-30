@@ -3,6 +3,9 @@
   display: grid;
   gap: 1em;
   grid-template-columns: repeat(3, 1fr); /* Tre kolumner */
+  padding-bottom: $margin-h;
+  padding-left: $margin-p;
+  padding-right: $margin-p;
 }
 
 .landingpage h1 {
@@ -10,9 +13,9 @@
   // width: 100%; /* Täcker hela cellens bredd */
   justify-self: center;
 }
-
+/* boxarna */
 .box {
-  border: 1px solid rgb(37, 136, 193);
+  border: 1px solid $border-color;
   padding: 4em;
   padding-top: 0.5em;
   padding-left: 0.5em;
@@ -32,35 +35,44 @@
   display: grid;
   gap: 5rem;
   grid-template-columns: 1fr 2fr; /* Två kolumner */
-  max-width: 950px;
+  // max-width: 950px;
   min-height: 60em; /* Håller footern nere vid kort innehåll på sidan i IPads */
+  // La till för att förbättra mörktemat.
+  padding-right: 20px;
+  margin-left: 20px;
+  max-width: 90%;
+  margin: 0 auto;
 }
 
 .side-bar {
   margin-top: 1.5rem;
   margin-left: 2rem;
   padding: 1em;
-  color: $link-color;
+  color: $main-link-color;
 }
 
 .tech-pages {
   margin-left: 7rem;
+  // La till för att förbättra mörktemat.
+  padding-left: 10px;
+  padding-right: 10px;
+  max-width: 100%;
 }
 
 .tech-links {
   padding: 1em;
-  border: 1px solid rgb(184, 226, 250);
+  border: 1px solid $tech-links-border-color;
   text-align: center;
   box-shadow: 0 4px 12px rgb(33, 33, 33, 0.1);
-  background-color: #f9f9f9;
+  background-color: $link-background;
   border-radius: 8px;
 
   a {
-    color: $link-color;
+    color: $main-link-color;
   }
 }
 
 .box .read-more { /* Länkarna i technology/index.md */
-  color: $link-color;
+  color: $main-link-color;
 }
 

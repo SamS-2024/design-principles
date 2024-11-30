@@ -23,7 +23,7 @@
   .title
   ,
   .logo {
-    padding: 1em 1em 1em 0;
+    padding: 1em;
   }
 
   .title {
@@ -67,10 +67,27 @@
       display: none; /* Döljer sidebaren på små skärmar */
     }
   }
+  /* Tabellen i rapport, första rapporten */
+  .typografi-table {
+    font-size: 0.9rem; /* Gör texten mindre */
+  }
+
+  .typografi-table th,
+  .typografi-table td {
+    display: block; /* Gör varje cell till block för att stapla dem */
+    width: 100%; /* Låter cellerna sträcka sig över hela bredden */
+    box-sizing: border-box; /* Ser till att padding inte påverkar bredden */
+    text-align: left; /* Justerar texten till vänster */
+  }
+
+  .typografi-table tr {
+    display: block; /* Staplar raderna */
+    margin-bottom: 1rem; /* Lägger till mellanrum mellan rader */
+  }
+
+  .site-header.logo {
+    padding: 1em 1em 1em 0;
+    max-width: 20%;
+    height: auto;;
+  }
 }
-
-
-
-
-
-

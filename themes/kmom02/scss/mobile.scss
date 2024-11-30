@@ -16,14 +16,14 @@
 
 .nav a,
 .nav-toggle {
-  color: #333;
+  color: $nav-toggle-color;
 }
 
 .nav-toggle {
   display: none;
 }
 
-@media (max-width: 768px) { /* Inkludrar IPad mini */
+@media (max-width: 820px) { /* Inkludrar IPad mini och IPad Air */
   .header {
     flex-direction: column;
   }

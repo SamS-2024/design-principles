@@ -21,9 +21,57 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'technology';
 @import 'color_table';
 @import 'typography-table';
+@import 'variables-dark';
 @import 'responsive';
 
-/* Längst ner i min style-dark.scss */
-.main {
-  background-color: yellow;
+/* style-dark.scss */
+
+body {
+  background-color: $background-color;
+}
+
+.main,
+ 
+.main-tech {
+  width: 100%;
+  background-color: $main-background-color;
+  color: $main-font-color;
+  border-radius: $dark-theme-border-radius;
+}
+
+.box {
+  border: 1px solid $tech-links-border-color;
+}
+
+.tech-links {
+  background-color: $link-background;
+  border: 1px solid $tech-links-border-color;
+
+  a {
+    color: $main-link-color;
+  }
+}
+
+.box .read-more { /* Länkarna i technology/index.md */
+  color: $main-link-color;
+}
+/* Raport tabellen, första raporten */
+.typografi-table tr:nth-child(even) {
+  background-color: $table-background;
+}
+
+.typografi-table tr:hover {
+  background-color: $table-background-hover;
+}
+
+pre {
+  background: $pre-background;
+}
+
+code {
+  background: $code-background;
+}
+
+a {
+  color: $main-link-color;
 }

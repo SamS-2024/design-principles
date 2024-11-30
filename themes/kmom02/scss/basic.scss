@@ -3,7 +3,7 @@
   border: 0 none;
   margin: 0;
   padding: 0;
-  color: $font-color;
+  // color: $font-color;
 }
 
 ol,
@@ -28,12 +28,16 @@ body {
   overflow-y: scroll; /* Always display scrollbar, avoid hopping pages */
   margin: 0;
   background-color: $background-color;
+  color: $main-font-color;
 
   .main {
     flex: 1 0 auto; /* flex-grow = 1, flex-shrink = 0, flex-basis = auto */
-    max-width: 50rem; /* Motsvarar 800px */
-    width: 100%;
     margin: 0 auto;
+    // max-width: 50rem; /* Motsvarar 800px */
+    // Lägger till dessa för att förbättra mörktemat
+    width: 90%;
+    padding: $margin-p;
+    // height: 100%; // förstörde sidorna så att footern hoppade upp på vissa.
   }
 
   p {

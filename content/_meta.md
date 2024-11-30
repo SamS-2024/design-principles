@@ -1,5 +1,5 @@
 ---
-Logo: image/blue.png
+Logo: image/logo.png
 Tagline: My portfolio.
 
 Social:
