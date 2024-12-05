@@ -6524,7 +6524,7 @@ pre code {
   flex-direction: column;
   align-items: end;
   margin-bottom: 20px;
-  background: #4A4737;
+  background: #4a4737;
 }
 
 .social {
@@ -6541,7 +6541,7 @@ pre code {
 .header {
   display: flex;
   align-items: center;
-  background: #45458A;
+  background: #45458a;
   justify-content: space-between;
   padding-right: 1rem;
 }
@@ -6762,7 +6762,7 @@ h6 {
 
 .tech-links {
   padding: 1em;
-  border: 1px solid #4A4737;
+  border: 1px solid #4a4737;
   text-align: center;
   box-shadow: 0 4px 12px rgba(33, 33, 33, 0.1);
   background-color: #f9f9f9;
@@ -6789,23 +6789,23 @@ h6 {
 
 /* IKEA */
 .color-1 {
-  background-color: #0367A6;
+  background-color: #0367a6;
 }
 
 .color-2 {
-  background-color: #02731E;
+  background-color: #02731e;
 }
 
 .color-3 {
-  background-color: #F2CB05;
+  background-color: #f2cb05;
 }
 
 .color-4 {
-  background-color: #F2F1F0;
+  background-color: #f2f1f0;
 }
 
 .color-5 {
-  background-color: #F26D6D;
+  background-color: #f26d6d;
 }
 
 /* Dagens industri */
@@ -6814,7 +6814,7 @@ h6 {
 }
 
 .color-7 {
-  background-color: #04D976;
+  background-color: #04d976;
 }
 
 .color-8 {
@@ -6822,11 +6822,11 @@ h6 {
 }
 
 .color-9 {
-  background-color: #F2F0F0;
+  background-color: #f2f0f0;
 }
 
 .color-10 {
-  background-color: #A60D0D;
+  background-color: #a60d0d;
 }
 
 /* Västtrafik */
@@ -6835,11 +6835,11 @@ h6 {
 }
 
 .color-12 {
-  background-color: #91BDD9;
+  background-color: #91bdd9;
 }
 
 .color-13 {
-  background-color: #048ABF;
+  background-color: #048abf;
 }
 
 .color-14 {
@@ -6847,11 +6847,13 @@ h6 {
 }
 
 .color-15 {
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
 }
 
 /* Bilderna */
-.webbplats-1, .webbplats-2, .webbplats-3 {
+.webbplats-1,
+.webbplats-2,
+.webbplats-3 {
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
@@ -6883,13 +6885,25 @@ h6 {
 
 td,
 th {
-  padding: 15px 15px;
+  padding: 15px;
 }
 
 .website-title {
   margin-bottom: 2.8rem;
   margin-top: 2.8rem;
   font-weight: bold;
+}
+
+.spread-sheet {
+  width: 100%;
+  height: 600px;
+}
+
+/* Bilderna för rapport 2*/
+.snapshot {
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  margin-bottom: 1.54rem;
 }
 
 @media (max-width: 1024px) {
@@ -6981,12 +6995,12 @@ body {
 }
 
 .box {
-  border: 1px solid #9F9772;
+  border: 1px solid #9f9772;
 }
 
 .tech-links {
   background-color: #333;
-  border: 1px solid #9F9772;
+  border: 1px solid #9f9772;
 }
 .tech-links a {
   color: #fff;
