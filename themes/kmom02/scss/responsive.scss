@@ -91,3 +91,12 @@
     height: auto;;
   }
 }
+
+/* Galleri sidan */
+@media (max-width: 668px) {
+  .grid-container {
+    grid-template-columns: 1fr; /* En kolumn */
+    max-width: 90%;
+    margin: 0 auto;
+  }
+}
