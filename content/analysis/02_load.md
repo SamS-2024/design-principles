@@ -102,4 +102,4 @@ IKEA hamnar sist på grund av de stora bristerna i mobilprestanda, vilket är s�
 En gräns på 2 sekunder för absolut laddningstid upplevs som snabb, medan över 3 sekunder anses långsam. För desktopversionerna klarar alla webbsidor gränsen. DN ligger i topp med medelvärde på 1.09 sekunder.<br><br>
 
 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQI36m3gPvtLJh2Mmz4gyPgCVRC9fGwFFV-apYawRY1kQnR5PG-AjsJ7aAzEry3I6i09PY1grH7ERqn/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" class="spread-sheet"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQI36m3gPvtLJh2Mmz4gyPgCVRC9fGwFFV-apYawRY1kQnR5PG-AjsJ7aAzEry3I6i09PY1grH7ERqn/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" class="spread-sheet" title="Google Spreadsheet"></iframe>

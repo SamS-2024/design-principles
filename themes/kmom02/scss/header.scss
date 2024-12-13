@@ -5,6 +5,7 @@
   justify-content: space-between;
   padding-right: 1rem;
   // margin-bottom: 3.125rem;
+  min-height: 100px;  /* För att stabilisera headern */
 
   // Test
   // background-image: url('/portfolio/assets/img/banner.jpg');
@@ -24,11 +25,13 @@
   flex-direction: row;
   align-items: center;
   font-size: 1.3em;
+  min-height: 100px;  /* För att säkerställa konsekvent höjd */
 
   .logo {
-    max-width: 32%;
+    max-width: 40%;
     height: auto; /* Bevarar proportionerna */
     margin-left: 1em;
+    min-height: 100px; /* Sätter en min-höjd för att undvika skiftande layout */
   }
 }
 

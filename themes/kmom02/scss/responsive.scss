@@ -88,7 +88,24 @@
   .site-header.logo {
     padding: 1em 1em 1em 0;
     max-width: 20%;
-    height: auto;;
+    height: auto;
+  }
+
+  .logo {
+    max-width: 30%;
+    height: auto; /* Bevarar proportionerna */
+
+  }
+
+  .me {
+    float: none; /* Tar bort float */
+    display: block;
+    margin-bottom: $margin-h;
+  }
+
+  .center-about {
+    text-align: left;
+    margin-bottom: $margin-h;
   }
 }
 

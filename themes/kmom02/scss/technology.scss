@@ -6,12 +6,14 @@
   padding-bottom: $margin-h;
   padding-left: $margin-p;
   padding-right: $margin-p;
+  margin-bottom: $margin-h;
 }
 
 .landingpage h1 {
   grid-column: span 3;
   // width: 100%; /* Täcker hela cellens bredd */
   justify-self: center;
+  margin-bottom: $margin-h;
 }
 /* boxarna */
 // .box {
@@ -28,21 +30,22 @@
   padding: 4em;
   padding-top: 0.5em;
   padding-left: 0.5em;
-  
+  transition: transform 0.3s ease, box-shadow 0.5s ease;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3), 
-              -4px -4px 10px rgba(255, 255, 255, 0.1), 
-              0 10px 20px rgba(0, 0, 0, 0.15);
+    -4px -4px 10px rgba(255, 255, 255, 0.1), 
+    0 10px 20px rgba(0, 0, 0, 0.15);
 }
 
 .box:hover {
   transform: translateY(-5px);
   box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.3), 
-              -4px -4px 15px rgba(255, 255, 255, 0.1), 
-              0 20px 30px rgba(0, 0, 0, 0.2);
+    -4px -4px 15px rgba(255, 255, 255, 0.1), 
+    0 20px 30px rgba(0, 0, 0, 0.2);
 }
 
 
-.box:nth-child(1), 
+.box:nth-child(1),
+ 
 .box:nth-child(2) {
   height: 300px; /* Ökar höjden för första och andra lådan */
 }
@@ -94,13 +97,22 @@
   border-radius: 8px;
 
   a {
-    color: $main-link-color;
+    color: #37374a;
+  }
+
+  a:hover {
+    color: #5c5cb6;
   }
 }
 
 .box .read-more { /* Länkarna i technology/index.md */
-  color: $main-link-color;
-  font-size: 1.2em;
-  font-family: Arial, Helvetica, sans-serif;
+  color: #37374a;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+
+}
+
+.box .read-more:hover {
+  color: #5c5cb6;
 }
 

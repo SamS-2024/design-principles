@@ -12,4 +12,4 @@ CSS skrevs i SASS, vilket underlättade strukturen genom användning av variable
 
 Twig används för att skapa tydliga mallar som strukturerar innehållet, medan Markdown har gjort det lätt att skriva och formatera text. För ikoner och grafiska inslag används Font Awesome, vilket ger en enhetlig visuell stil. Det har också använts Google Fonts till rubriker och text.<br><br>
 
-Slutligen har Git och GitHub använts för versionshantering, vilket ger en översikt över förändringar och projektets utveckling.
+Slutligen har Git och GitHub använts för versionshantering, vilket ger en översikt över förändringar och projektets utveckling.<br><br>

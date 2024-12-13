@@ -25,3 +25,13 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'gallery';
 @import 'principles';
 @import 'responsive';
+
+// För att åtgärda CLS
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../../shared/fontawesome/webfonts/fa-solid-900.woff2') format('woff2'),
+    url('../../shared/fontawesome/webfonts/fa-brands-400.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

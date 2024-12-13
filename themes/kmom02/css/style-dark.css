@@ -6544,6 +6544,7 @@ pre code {
   background: #45458a;
   justify-content: space-between;
   padding-right: 1rem;
+  min-height: 100px; /* För att stabilisera headern */
 }
 .header .nav a {
   font-size: 1.5rem;
@@ -6556,11 +6557,13 @@ pre code {
   flex-direction: row;
   align-items: center;
   font-size: 1.3em;
+  min-height: 100px; /* För att säkerställa konsekvent höjd */
 }
 .site-header .logo {
-  max-width: 32%;
+  max-width: 100%;
   height: auto; /* Bevarar proportionerna */
   margin-left: 1em;
+  min-height: 100px; /* Sätter en min-höjd för att undvika skiftande layout */
 }
 
 /* Test-kod föreläsning */
@@ -6596,17 +6599,23 @@ pre code {
 }
 
 img {
+  width: 200px;
+  height: 100px;
   max-width: 100%;
+  height: auto;
 }
 
 .me { /* bilden */
   margin-top: 25px;
   margin-left: 5px;
   border-radius: 7px;
+  width: 200px;
+  height: auto;
 }
 
 .bild { /* Bilden på hobby-sidan */
   max-width: 90%;
+  height: auto;
   margin-top: 2.5em;
   border-radius: 8px;
 }
@@ -6690,7 +6699,7 @@ h6 {
 }
 
 * {
-  font-family: "Roboto", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h1,
@@ -6699,7 +6708,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Open Sans", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* technology layout */
@@ -7032,6 +7041,10 @@ video {
     padding: 1em 1em 1em 0;
     max-width: 20%;
     height: auto;
+  }
+  .logo {
+    max-width: 30%;
+    height: auto; /* Bevarar proportionerna */
   }
 }
 /* Galleri sidan */

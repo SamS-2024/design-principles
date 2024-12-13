@@ -1,18 +1,31 @@
 img {
   max-width: 100%;
+  height: auto;
 }
 
 .me { /* bilden */
-  margin-top: 25px;
-  margin-left: 5px;
+  // margin-top: 25px;
+  // margin-left: 5px;
   // border: 0.5px solid rgb(165, 165, 165);
+  margin-right: $margin-h;
+  margin-bottom: $margin-h * 2;
   border-radius: 7px;
+  width: 250px;
+  height: auto;
+  float: left;
 }
 
 .bild { /* Bilden på hobby-sidan */
   max-width: 90%;
-  margin-top: 2.5em;
+  height: auto;
+  margin-top: $margin-p;
   border-radius: 8px;
+  margin-bottom: $margin-p;
   // border: 0.5px solid rgb(108, 180, 249);
   // box-shadow: 0 2px 10px rgb(108, 180, 249);
+}
+
+.center-about {
+  text-align: center;
+  margin-bottom: $margin-h;
 }

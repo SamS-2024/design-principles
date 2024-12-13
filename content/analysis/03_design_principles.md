@@ -115,6 +115,20 @@ Enhetlig design och repetition syns på tekniksidorna, där grid används effekt
 
 ##Skillnader mellan framsidan och undersidorna<br><br>
 
-Det finns inga stora skillnader mellan framsidan och undersidorna, hela webbplatsen följer en konsekvent och enhetlig design.  
+Det finns inga stora skillnader mellan framsidan och undersidorna, hela webbplatsen följer en konsekvent och enhetlig design.
 
-  
+##För att undvika synonymer kan en mer passande titel vara:
+
+##Justeringar och förbättringar<br><br>
+
+Vid analysen av webbsidan har flera möjliga uppdateringar identifierats. Följande uppdateringar har genomförts för att förbättra designen:
+
+Användning av 'depth' i grid-boxarna: För att skapa en 3D-känsla har skuggor, skalning och hierarki tillämpats. De första två boxarna, "HTML" och "CSS", har justerats för att få större höjd än de övriga, vilket gör att de får mer uppmärksamhet och framhäver de tekniker som används på webbsidan. Denna justering hjälper till att fokusera användarens uppmärksamhet på de viktigaste teknikerna.
+
+Balans: En förändring har gjorts på startsidan där en bild har placerats till vänster om texten i desktopläge. Detta skapar en bättre balans mellan text och bild, vilket gör layouten mer visuell tilltalande.
+
+Enhetlighet i färgdesignen: En uppdatering har genomförts genom att ändra färgen på footern för att skapa en mer enhetlig design. Färgen i footern matchar nu bättre med färgen i headern, vilket bidrar till ett mer sammanhängande visuellt intryck. Repetition har implementerats genom att grid-designen används konsekvent på flera sidor.
+
+Förbättrad kontrast och läsbarhet: För att förbättra läsbarheten har kontrasten mellan textfärgen och bakgrunden ökat. Särskilt i det mörka temat och i länkarna i grid-boxarna på teknologisidan. Större text har också använts på vissa ställen för att underlätta läsningen och göra innehållet mer tillgängligt.
+
+Sammanfattningsvis har flera designprinciper som hierarki, enhetlighet, kontrast och balans implementerats för att förbättra användarupplevelsen och det visuella intrycket på webbsidan.
