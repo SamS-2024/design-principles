@@ -129,4 +129,4 @@ Enhetlighet i färgdesignen: En uppdatering har genomförts genom att ändra fä
 
 Förbättrad kontrast och läsbarhet: För att förbättra läsbarheten har kontrasten mellan textfärgen och bakgrunden ökat. Särskilt i det mörka temat och i länkarna i grid-boxarna på teknologisidan. Större text har också använts på vissa ställen för att underlätta läsningen och göra innehållet mer tillgängligt.
 
-Sammanfattningsvis har flera designprinciper som hierarki, enhetlighet, kontrast och balans implementerats för att förbättra användarupplevelsen och det visuella intrycket på webbsidan.<br><br>
+Sammanfattningsvis har flera designprinciper som djup, hierarki, enhetlighet, kontrast och balans implementerats för att förbättra användarupplevelsen och det visuella intrycket på webbsidan.<br><br>
