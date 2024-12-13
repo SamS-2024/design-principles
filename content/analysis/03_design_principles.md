@@ -8,7 +8,7 @@ Uppgiften handlar om att välja tre olika webbplatser inom kategorin personsidor
 -----------------------
 
 
-De tre valda webbplatserna, https://stephenking.com/, https://www.dannycortesnyc.com/ och https://www.katieosullivanart.com/about, valdes för att skapa variation inom kategorin personsidor. Urvalet baserades på en önskan att representera olika kreativa fält: en författare och två konstnärer. Webbplatserna valdes också för sina unika designlösningar och innehåll som framhäver deras respektive profiler. Trots flera intressanta alternativ begränsades urvalet till tre för att möjliggöra en fokuserad analys av varje sida.
+De tre valda webbplatserna, https://stephenking.com/, https://www.dannycortesnyc.com/ och https://www.katieosullivanart.com/about, valdes för att skapa variation inom kategorin personsidor. Urvalet baserades på en önskan att representera olika kreativa fält: en författare och två konstnärer. Webbplatserna valdes också för sina unika designlösningar och innehåll som framhäver deras respektive profiler. Trots flera intressanta alternativ begränsades urvalet till de tre för att få lite variation i jämförelsen.
 
 #Metod
 -----------------------
@@ -34,7 +34,7 @@ Designen gynnar webbplatsens syfte genom att fokusera besökarens uppmärksamhet
 
 ##Framträdande designprinciper och designelement<br><br>
 
-Designprinciper som upprepning, hierarki och enhetlighet präglar webbplatsen. Exempelvis visas böckerna i organiserade sektioner med bild och text, medan bannern använder starka färger för att skapa kontrast och fånga uppmärksamhet. Webbsidan ger en känsla av harmoni.
+Designprinciper som upprepning, hierarki och enhetlighet präglar webbplatsen. Exempelvis visas böckerna i organiserade sektioner med bild och text, medan bannern använder starka färger för att skapa kontrast och fånga besökarnas uppmärksamhet. Där visas kommande böcker och datum. Generellt ger webbsidan en känsla av harmoni.
 
 ##Skillnader mellan framsidan och undersidorna<br><br>
 
@@ -53,11 +53,11 @@ Webbplatsen kännetecknas av stora, framträdande bilder och hög kontrast för 
 
 ##Designens påverkan på mål och syfte<br><br>
 
-Designen lyfter fram konstnärens arbete, vilket stärker varumärket och skapar en personlig koppling mellan konstnären och besökaren. Detta underlättar en djupare relation och en lojal publik.
+Designen lyfter fram konstnärens arbete, vilket stärker varumärket och skapar en personlig koppling mellan konstnären och besökaren. Detta skapar en djupare relation mellan konstnären och hans publik.
 
 ##Framträdande designprinciper och designelement<br><br>
 
-Hierarki används för att framhäva specifika verk med större bilder, och kontrast (t.ex. gul text mot svart bakgrund) fångar ögat. Genomskinlighet framhäver konstnärens bild i bakgrunden, medan ett grid-system organiserar produkterna i "shop"-sidan.
+Hierarki används för att framhäva specifika verk med större bilder, och kontrast (t.ex. gul text mot svart bakgrund) fångar ögat. Genomskinlighet används där konstnärens bild finns i bakgrunden, och produkten i fokus. Det används också ett grid-system som organiserar produkterna i "shop"-sidan.
 
 ##Skillnader mellan framsidan och undersidorna<br><br>
 
@@ -117,13 +117,11 @@ Enhetlig design och repetition syns på tekniksidorna, där grid används effekt
 
 Det finns inga stora skillnader mellan framsidan och undersidorna, hela webbplatsen följer en konsekvent och enhetlig design.
 
-##För att undvika synonymer kan en mer passande titel vara:
-
 ##Justeringar och förbättringar<br><br>
 
 Vid analysen av webbsidan har flera möjliga uppdateringar identifierats. Följande uppdateringar har genomförts för att förbättra designen:
 
-Användning av 'depth' i grid-boxarna: För att skapa en 3D-känsla har skuggor, skalning och hierarki tillämpats. De första två boxarna, "HTML" och "CSS", har justerats för att få större höjd än de övriga, vilket gör att de får mer uppmärksamhet och framhäver de tekniker som används på webbsidan. Denna justering hjälper till att fokusera användarens uppmärksamhet på de viktigaste teknikerna.
+Användning av 'depth' i grid-boxarna: För att skapa en 3D-känsla, har skuggor, skalning och hierarki tillämpats. De första två boxarna, "HTML" och "CSS", har justerats för att få större höjd än de övriga, vilket gör att de får mer uppmärksamhet och framhäver de tekniker som används på webbsidan. Denna justering hjälper till att fokusera användarens uppmärksamhet på de viktigaste teknikerna.
 
 Balans: En förändring har gjorts på startsidan där en bild har placerats till vänster om texten i desktopläge. Detta skapar en bättre balans mellan text och bild, vilket gör layouten mer visuell tilltalande.
 
@@ -131,4 +129,4 @@ Enhetlighet i färgdesignen: En uppdatering har genomförts genom att ändra fä
 
 Förbättrad kontrast och läsbarhet: För att förbättra läsbarheten har kontrasten mellan textfärgen och bakgrunden ökat. Särskilt i det mörka temat och i länkarna i grid-boxarna på teknologisidan. Större text har också använts på vissa ställen för att underlätta läsningen och göra innehållet mer tillgängligt.
 
-Sammanfattningsvis har flera designprinciper som hierarki, enhetlighet, kontrast och balans implementerats för att förbättra användarupplevelsen och det visuella intrycket på webbsidan.
+Sammanfattningsvis har flera designprinciper som hierarki, enhetlighet, kontrast och balans implementerats för att förbättra användarupplevelsen och det visuella intrycket på webbsidan.<br><br>
