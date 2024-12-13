@@ -1,5 +1,5 @@
 ---
-Logo: image/logo.png
+Logo: image/logo.webp
 Tagline: My portfolio.
 
 Social:

@@ -6524,7 +6524,7 @@ pre code {
   flex-direction: column;
   align-items: end;
   margin-bottom: 20px;
-  background: #4a4737;
+  background: #37374A;
 }
 
 .social {
@@ -6719,11 +6719,22 @@ h6 {
 
 /* boxarna */
 .box {
-  border: 1px solid rgb(37, 136, 193);
+  border: 1px solid none;
+  background: linear-gradient(to bottom, transparent, #e7e7fa);
   padding: 4em;
   padding-top: 0.5em;
   padding-left: 0.5em;
-  box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3), -4px -4px 10px rgba(255, 255, 255, 0.1), 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.box:hover {
+  transform: translateY(-5px);
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.3), -4px -4px 15px rgba(255, 255, 255, 0.1), 0 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.box:nth-child(1),
+.box:nth-child(2) {
+  height: 300px; /* Ökar höjden för första och andra lådan */
 }
 
 .medium {
@@ -6774,6 +6785,8 @@ h6 {
 
 .box .read-more { /* Länkarna i technology/index.md */
   color: #0a46c7;
+  font-size: 1.2em;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .color-table {
@@ -6921,7 +6934,10 @@ th {
   text-align: center;
 }
 
-img, embed, object, video {
+img,
+embed,
+object,
+video {
   max-width: 100%;
 }
 
@@ -7041,6 +7057,7 @@ body {
 
 .box {
   border: 1px solid #9f9772;
+  background: #333;
 }
 
 .tech-links {
@@ -7074,4 +7091,8 @@ code {
 
 a {
   color: #fff;
+}
+
+.main p {
+  font-size: 1.2em;
 }

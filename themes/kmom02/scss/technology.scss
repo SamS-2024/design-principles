@@ -14,13 +14,39 @@
   justify-self: center;
 }
 /* boxarna */
+// .box {
+//   border: 1px solid $border-color;
+//   padding: 4em;
+//   padding-top: 0.5em;
+//   padding-left: 0.5em;
+//   box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+// }
+
 .box {
   border: 1px solid $border-color;
+  background: $tech-box-background;
   padding: 4em;
   padding-top: 0.5em;
   padding-left: 0.5em;
-  box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+  
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3), 
+              -4px -4px 10px rgba(255, 255, 255, 0.1), 
+              0 10px 20px rgba(0, 0, 0, 0.15);
 }
+
+.box:hover {
+  transform: translateY(-5px);
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.3), 
+              -4px -4px 15px rgba(255, 255, 255, 0.1), 
+              0 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+
+.box:nth-child(1), 
+.box:nth-child(2) {
+  height: 300px; /* Ökar höjden för första och andra lådan */
+}
+
 
 .medium {
   grid-column: span 2;
@@ -74,5 +100,7 @@
 
 .box .read-more { /* Länkarna i technology/index.md */
   color: $main-link-color;
+  font-size: 1.2em;
+  font-family: Arial, Helvetica, sans-serif;
 }
 

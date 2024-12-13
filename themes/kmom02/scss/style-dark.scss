@@ -43,6 +43,7 @@ body {
 
 .box {
   border: 1px solid $tech-links-border-color;
+  background: $tech-box-background;
 }
 
 .tech-links {
@@ -76,4 +77,8 @@ code {
 
 a {
   color: $main-link-color;
+}
+
+.main p {
+  font-size: $font-size;
 }
