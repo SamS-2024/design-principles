@@ -2,6 +2,7 @@
     <div class="site-header">
         {% if pages["_meta"].meta.logo %}
         <div class="logo">
+            <!--La till 'loading="lazy" och mått i kmom06 efter analys med google lighthouse.'-->
             <a href="{{ base_url }}">
                 <img src="{{ base_url }}/{{ pages["_meta"].meta.logo|url }}" loading="lazy" alt="logo" width="300" height="auto" />
             </a>
@@ -19,9 +20,7 @@
         </a>
     </div>
     <div class="nav">
-        <!--Tar bort i kmom06, google lighthouse-->
-        {# <div id="nav" role="navigation" tabindex="-1"> #}
-            <div id="nav" role="navigation"></div>
+        <div id="nav" role="navigation" tabindex="-1">
             <ul>
                 {% for page in pages(depthOffset=-1) if page.title and not page.hidden %}
                     <li{% if page.id==current_page.id %} class="active" {% endif %}>

@@ -6524,7 +6524,7 @@ pre code {
   flex-direction: column;
   align-items: end;
   margin-bottom: 20px;
-  background: #37374A;
+  background: #37374a;
 }
 
 .social {
@@ -6560,7 +6560,7 @@ pre code {
   min-height: 100px; /* För att säkerställa konsekvent höjd */
 }
 .site-header .logo {
-  max-width: 100%;
+  max-width: 40%;
   height: auto; /* Bevarar proportionerna */
   margin-left: 1em;
   min-height: 100px; /* Sätter en min-höjd för att undvika skiftande layout */
@@ -6599,25 +6599,30 @@ pre code {
 }
 
 img {
-  width: 200px;
-  height: 100px;
   max-width: 100%;
   height: auto;
 }
 
 .me { /* bilden */
-  margin-top: 25px;
-  margin-left: 5px;
+  margin-right: 2.8rem;
+  margin-bottom: 5.6rem;
   border-radius: 7px;
-  width: 200px;
+  width: 250px;
   height: auto;
+  float: left;
 }
 
 .bild { /* Bilden på hobby-sidan */
   max-width: 90%;
   height: auto;
-  margin-top: 2.5em;
+  margin-top: 1.54rem;
   border-radius: 8px;
+  margin-bottom: 1.54rem;
+}
+
+.center-about {
+  text-align: center;
+  margin-bottom: 2.8rem;
 }
 
 * {
@@ -6699,7 +6704,7 @@ h6 {
 }
 
 * {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 h1,
@@ -6708,7 +6713,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 /* technology layout */
@@ -6719,20 +6724,23 @@ h6 {
   padding-bottom: 2.8rem;
   padding-left: 1.54rem;
   padding-right: 1.54rem;
+  margin-bottom: 2.8rem;
 }
 
 .landingpage h1 {
   grid-column: span 3;
   justify-self: center;
+  margin-bottom: 2.8rem;
 }
 
 /* boxarna */
 .box {
   border: 1px solid none;
-  background: linear-gradient(to bottom, transparent, #e7e7fa);
+  background: rgb(249, 248, 248);
   padding: 4em;
   padding-top: 0.5em;
   padding-left: 0.5em;
+  transition: transform 0.3s ease, box-shadow 0.5s ease;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3), -4px -4px 10px rgba(255, 255, 255, 0.1), 0 10px 20px rgba(0, 0, 0, 0.15);
 }
 
@@ -6789,13 +6797,20 @@ h6 {
   border-radius: 8px;
 }
 .tech-links a {
-  color: #0a46c7;
+  color: #37374a;
+}
+.tech-links a:hover {
+  color: #5c5cb6;
 }
 
 .box .read-more { /* Länkarna i technology/index.md */
-  color: #0a46c7;
-  font-size: 1.2em;
-  font-family: Arial, Helvetica, sans-serif;
+  color: #37374a;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+
+.box .read-more:hover {
+  color: #5c5cb6;
 }
 
 .color-table {
@@ -7046,6 +7061,15 @@ video {
     max-width: 30%;
     height: auto; /* Bevarar proportionerna */
   }
+  .me {
+    float: none; /* Tar bort float */
+    display: block;
+    margin-bottom: 2.8rem;
+  }
+  .center-about {
+    text-align: left;
+    margin-bottom: 2.8rem;
+  }
 }
 /* Galleri sidan */
 @media (max-width: 668px) {
@@ -7071,6 +7095,11 @@ body {
 .box {
   border: 1px solid #9f9772;
   background: #333;
+  box-shadow: none;
+}
+
+.box:hover {
+  box-shadow: none;
 }
 
 .tech-links {
